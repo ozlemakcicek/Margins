@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+ 
+}
+
+
+
+
+
+.container{
+    width: 50%;
+   height: 80vh;
+   margin: 100px auto ;
+   
+    background-color: rgb(234, 215, 215);
+    background-size: 100% 100%;
+display: flex;
+    
+  
+  
+}
+   
+
+
+
+  
+
+.ekran{  
+     width: 35%;
+    height: 15vh;
+    margin: 90px 400px;
+    background-color: rgb(240, 122, 101);
+
+    border-radius: 4px;
+ 
+   
+   
+position: absolute;
+top: 15%;
+left:10% ;
+ padding: 180px 10px;
+
+
+
+}
+
+.daire{
+    width: 130px;
+    height: 130px;
+  
+    border-radius:100px;  
+    position: absolute;
+    top:16%;
+    left: 45%;
+   
+}
+.yuvarla{
+    border-radius: 50%;   
+}
+
+
+span{
+    color: yellow;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+h3{
+   position: absolute;
+   top: 20%;
+   left: 18%;
+font-family: 'Open Sans', sans-serif;
+
+position: absolute;
+top: 4rem;
+left: 10rem;
+
+
+
+}
+
+
+p{
+    font-size: 270%;
+    font-weight: bolder;
+    color: rgb(78, 72, 72);
+ text-align: center;
+font-family: 'Open Sans', sans-serif;
+position: absolute;
+top: 7rem;
+height: 40vh;
+
+}
+
+.text2{
+    
+    color: brown;
+    font-weight: 500;
+    font-size: larger;
+    position: absolute;
+    left:49rem ;
+    bottom: 15%;
+  
+ 
+}
