@@ -6,102 +6,84 @@
 }
 
 
-
-
-
-.container{
-    width: 50%;
-   height: 80vh;
-   margin: 100px auto ;
+.genel{
    
-    background-color: rgb(234, 215, 215);
-    background-size: 100% 100%;
-display: flex;
-    
-  
-  
-}
-   
-
-
-
-  
-
-.ekran{  
-     width: 35%;
-    height: 15vh;
-    margin: 90px 400px;
-    background-color: rgb(240, 122, 101);
-
-    border-radius: 4px;
+  background-color: rgb(234, 215, 215);
+   /* height: 80vh; */  /* ya da bunun yerine altindaki itemlardan birine de height verebilirsin*/
+  margin: 6rem;
+  padding: 150px;
  
-   
-   
-position: absolute;
-top: 15%;
-left:10% ;
- padding: 180px 10px;
-
-
-
 }
+   
+.container{
 
-.daire{
-    width: 130px;
-    height: 130px;
+    
+    
+    background-color:rgb(232, 118, 97);
+    padding:100px ;
   
-    border-radius:100px;  
-    position: absolute;
-    top:16%;
-    left: 45%;
-   
+border: 4px solid black;
+border-radius: 5px;
+
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+
+ 
+
+
+
+    /* artik display flex dedikten sonra bunun altindaki items lara istedigim sekli vereblrm */
+ 
+
 }
+
+
 .yuvarla{
-    border-radius: 50%;   
+    border: 3px solid black;
+    border-radius: 50%;
+
+}
+.logo{
+    position: absolute;
+    top: 11rem;
+  
 }
 
-
-span{
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+.baslik{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+font-family: 'Open Sans', sans-serif;
+display: flex;
+justify-content: center;
+}
+span {
     color: yellow;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
-h3{
-   position: absolute;
-   top: 20%;
-   left: 18%;
+.ekrany{
+    font-size: 60px;
+        font-weight: bolder;
+        color: rgb(78, 72, 72);
 font-family: 'Open Sans', sans-serif;
-
-position: absolute;
-top: 4rem;
-left: 10rem;
-
-
-
-}
-
-
-p{
-    font-size: 270%;
-    font-weight: bolder;
-    color: rgb(78, 72, 72);
- text-align: center;
-font-family: 'Open Sans', sans-serif;
-position: absolute;
-top: 7rem;
-height: 40vh;
-
-}
-
-.text2{
-    
-    color: brown;
-    font-weight: 500;
-    font-size: larger;
-    position: absolute;
-    left:49rem ;
-    bottom: 15%;
-  
+text-align: center;
  
 }
+
+.items2{
+    display: flex;
+    justify-content: center;
+margin-top: 3rem;}
+    
+.text2{
+color: brown;
+    font-weight: 600;
+    font-size: larger;
+
+}
+
+  
