@@ -10,17 +10,19 @@
    
   background-color: rgb(234, 215, 215);
    /* height: 80vh; */  /* ya da bunun yerine altindaki itemlardan birine de height verebilirsin*/
-  margin: 6rem;
-  padding: 150px;
+ 
+  padding: 100px;
+  width: 100%;
  
 }
    
 .container{
 
     
-    
+    width: 70%;
     background-color:rgb(232, 118, 97);
-    padding:100px ;
+    padding:100px 80px ;
+    margin-left: 5rem;
   
 border: 4px solid black;
 border-radius: 5px;
@@ -30,7 +32,7 @@ border-radius: 5px;
         justify-content: center;
         align-items: center;
         height: 500px;
-flex-basis: 0;
+
  
 
 
@@ -48,7 +50,7 @@ flex-basis: 0;
 }
 .logo{
     position: absolute;
-    top: 11rem;
+    top: 2rem;
   
 }
 
@@ -71,19 +73,61 @@ span {
         color: rgb(78, 72, 72);
 font-family: 'Open Sans', sans-serif;
 text-align: center;
+
  
 }
 
 .items2{
     display: flex;
-    justify-content: center;
-margin-top: 3rem;}
+justify-content: center;
+   
+margin-top: 3rem;
+
+}
     
 .text2{
 color: brown;
     font-weight: 600;
     font-size: larger;
+justify-content: center;
 
 }
 
-  
+   @media screen and (max-width:576px){
+    body{
+        width: 100%;
+    }
+
+    .genel{
+        width: 100%;
+
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    .ekrany{
+        display: none;
+    }
+   }
+
+
+   @media screen and (max-width:992px) {
+       body {
+           width: 100%;
+       }
+
+       .genel {
+           width: 100%;
+
+       }
+
+       .container {
+           width: 100%;
+       }
+
+       .ekrany {
+           display: none;
+       }
+   }
